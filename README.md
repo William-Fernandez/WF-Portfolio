@@ -1,12 +1,70 @@
-# React + Vite
+# William Fernandez – Web Developer Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge\&logo=react\&logoColor=%2361DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge\&logo=vite\&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge\&logo=tailwind-css\&logoColor=white)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+**Live at:** [https://wfernandez.dev](https://wfernandez.dev)
+**Hosted on:** VPS at Hostinger
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👋 Hello, I’m William
 
-## Expanding the ESLint configuration
+I’m William Fernandez—Colombian by birth, self-taught web developer by passion, and currently based in London. This site is my personal portfolio, showcasing everything from code to deployment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I’ve spent the last months diving into front-end (with a dash of back-end), and this project reflects all the tricks I’ve picked up: speedy tooling, thoughtful design, and rock-solid form handling.
+
+## ✨ What’s Inside
+
+Built from scratch with modern tools, you’ll find:
+
+* **React + Vite:** Instant reloads and super-fast builds.
+* **Tailwind CSS:** Utility-first styling following the 60-30-10 colour rule.
+* **Framer Motion:** Smooth, eye-catching animations.
+* **Lenis:** Ultra-fluid scrolling for a premium feel.
+* **Contact Form:** Functional via EmailJS, with Google reCAPTCHA to block bots.
+* **Form Validation:** Powered by React Hook Form for clear, friendly feedback.
+* **Lazy Loading:** Only loads what’s in view, boosting performance.
+* **Markdown Support:** Dynamically render content with React Markdown.
+* **Smooth Anchors:** Nice in-page navigation courtesy of React Scroll.
+* **Image Carousel:** Built with React Slick for polished galleries.
+* **Toasts:** Non-intrusive notifications using Sonner.
+
+## 🛠️ Tech Stack
+
+These are the star players:
+
+* **React** – For building interactive UIs.
+* **Vite** – Rapid dev server and build tool.
+* **Tailwind CSS** – For fast, responsive styling.
+* **Framer Motion** – Animation library that just works.
+* **React Hook Form** – Lightweight, flexible form management.
+
+## ⚙️ Environment Variables
+
+I keep sensitive keys in a `.env` file, for example:
+
+* **EmailJS API key**
+* **Google reCAPTCHA site key**
+
+This ensures credentials stay out of version control.
+
+## 🔭 What’s Next
+
+On my roadmap:
+
+1. **Back-end integration** with Node.js/Express to handle data more robustly.
+2. **Project case studies** explaining design decisions and challenges.
+3. **Testing suite** (unit & integration) for long-term code health.
+4. **Accessibility review** to make the site inclusive for all users.
+
+## 🔗 Let’s Connect
+
+I’m keen to join a dynamic team and keep growing. If you need a motivated, quick-learning junior dev who cares about clean code and great UX, I’d love to chat!
+
+Reach out via the form on my site or find me on LinkedIn [https://www.linkedin.com/in/william-fernandez-dev/](https://www.linkedin.com/in/william-fernandez-dev/).
+
+---
+
+**William Fernandez**
+*Junior Full-Stack Developer*
+*Based in London, UK*
