@@ -1,0 +1,123 @@
+/* fonts */
+/* Nunito */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* Bebas */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Tailwind */
+@import "tailwindcss";
+
+@theme {
+    /* Fonts */
+    --font-inter: "Inter", "sans-serif";
+    /* Colors */
+    --color-bg-primary: #020618;
+    --color-bg-secundary: #2e3a59;
+    --color-accent: #2ce896;
+    --color-accent-darker: #12ce7d;
+    --color-accent-lighter: #57eba1;
+    --color-info: #5a86ad;
+    --color-alert: #ffa726;
+    --color-success: #0c8a5a;
+    --color-warning: #f0e68c;
+    --color-p-text: #fafbff;
+    --color-s-text: #d4d8e8;
+    --color-bg-neutral1: #1a1e2e;
+    --color-bg-neutral2: #323646;
+    --color-tx-neutral3: #4a4e5e;
+    --color-tx-neutral4: #d4d8e8;
+}
+
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+/* src/components/Home/Info/Info.module.css */
+.blinkingCursor {
+    position: relative;
+    margin-left: 0.2em;
+}
+
+.blinkingCursor::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 0.11em;
+    height: 16px;
+    background-color: #f0e68c;
+    animation: blinkCaret 0.75s step-end infinite;
+}
+
+@keyframes blinkCaret {
+    from,
+    to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #f0e68c;
+    }
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin-bottom: 1em;
+}
+
+.markdown-content strong {
+    color: #5a86ad;
+}
+
+.markdown-content img {
+    margin: 5px;
+    border-radius: 10px;
+    width: 450px;
+    height: 250px;
+}
+
+/* Queries for md: markdown*/
+@media (min-width: 768px) {
+    .markdown-content p {
+        margin-bottom: 1em;
+        padding: 0 30px;
+    }
+
+    .markdown-content h1,
+    .markdown-content h2,
+    .markdown-content h3,
+    .markdown-content h4,
+    .markdown-content h5,
+    .markdown-content h6 {
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        padding: 0 30px;
+    }
+
+    .markdown-content ul,
+    .markdown-content ol {
+        margin-bottom: 1em;
+        padding: 0 30px;
+    }
+
+    .markdown-content img {
+        margin: 5px;
+        border-radius: 20px;
+        width: 450px;
+        height: 250px;
+        object-fit: cover;
+    }
+}
