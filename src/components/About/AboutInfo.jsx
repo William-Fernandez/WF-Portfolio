@@ -10,7 +10,6 @@ export default function AboutInfo() {
     return (
         <section className="flex flex-col justify-center items-center px-3 md:px-6 bg-bg-secundary/30 rounded-lg mb-10 md:mb-20">
             <div className="max-w-4xl w-full my-4">
-                {/* Primer bloque siempre visible */}
                 <motion.div
                     className="flex items-center md:gap-4"
                     initial={{ opacity: 0, x: 80 }}

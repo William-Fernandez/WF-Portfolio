@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Element } from "react-scroll";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
-// import ContactInfo from "../../components/ContactMe/ContactInfo.jsx";
 import ContactForm from "../../components/ContactMe/ContactForm.jsx";
 
 const navbarHeight = "80px";

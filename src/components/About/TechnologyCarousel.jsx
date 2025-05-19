@@ -41,7 +41,6 @@ const TechnologyCarousel = () => {
                 <div className="flex justify-center">
                     <img src={HTMLLogo} alt="HTML5" className="h-11 md:h-14" />
                 </div>{" "}
-                {/* Tailwind for centering */}
                 <div className="flex justify-center">
                     <img src={CSSLogo} alt="CSS3" className="h-11 md:h-14" />
                 </div>

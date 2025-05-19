@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
-import { Element, scroller } from "react-scroll"; // Importa 'scroller'
+import { Element, scroller } from "react-scroll";
 import ProjectCard from "../../components/Cards/ProjectCard.jsx";
 import projectsData from "../../data/projectsData.js";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";

@@ -49,10 +49,8 @@ export default function Info() {
         >
             <div className="flex flex-col items-center w-4/5 relative">
                 {" "}
-                {/* Añadimos 'relative' al contenedor principal */}
                 <div className="w-3xs md:block flex justify-center relative">
                     {" "}
-                    {/* Añadimos 'relative' al contenedor de la imagen */}
                     <div className="w-56 md:w-full">
                         <img
                             src={WFernandezAnimado}

@@ -16,7 +16,7 @@ function SecondaryButton({ children, onClick }) {
                     type: "spring",
                     stiffness: 300,
                     damping: 10,
-                }, // Animación con resorte para un efecto más vivo
+                }, // Animación con resorte
             }}
             whileTap={{
                 scale: 0.95,
