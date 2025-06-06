@@ -71,7 +71,7 @@ export default function Info() {
                 </div>
                 <div className="flex flex-col items-center mt-1">
                     <h1 className="font-inter font-extrabold text-4xl md:text-5xl text-p-text text-center">
-                        A Junior Full Stack Developer
+                        A Junior Web Developer
                     </h1>
                     <p className="text-xl md:text-4xl text-s-text text-center mt-1">
                         Ready to Build{" "}
