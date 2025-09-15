@@ -1,6 +1,7 @@
 import LiveWebsiteScreenshot from "../assets/images/projects/zarekwebsite.png";
 import CurrencyConverter from "../assets/images/projects/CurrencyConverter.webp";
 import SecretSanta from "../assets/images/projects/SecretSanta.webp";
+import MNTRVRecords from "../assets/images/projects/MNTRVRecords.webp";
 
 const projectsData = [
     {
@@ -38,6 +39,71 @@ This project demonstrates my ability to develop a full-fledged web application, 
             "/images/projects/zarekmusic/StoreZarek.webp",
             "/images/projects/zarekmusic/FormZarek.webp",
         ],
+    },
+    {
+        id: "mntrvrecords-website",
+        title: "Music Label Showcase",
+        image: MNTRVRecords,
+        description:
+            "A dynamic, single-page application for a music label, featuring a full catalogue of releases with a custom purchase modal and interactive 3D elements.",
+        liveLink: "https://mntrvrecords.com",
+        githubLink: "https://github.com/William-Fernandez/MNTRVRecords.git",
+        longDescription: `
+This project serves as a comprehensive web presence for a music label, focusing on showcasing their discography and providing a seamless user experience. The platform highlights the latest releases on the homepage and provides a full catalogue of all music.
+
+The core functionality is centred around the **release catalogue**. Each item features a "Buy Now" button that triggers a custom-built modal window. This modal presents users with options to purchase either a digital or physical (vinyl) copy, intelligently redirecting them to the correct external store (e.g., Bandcamp or Beatport) for the selected format.
+
+A key highlight of the project is the **About** section, which features a custom 3D animated logo. The logo's rotation and scale are dynamically controlled by the user's scroll position, creating an interactive and visually engaging element that demonstrates advanced frontend animation skills.
+
+From a technical perspective, the site is a **Single-Page Application (SPA)** built with **React with Vite**. It uses **Tailwind CSS** for a responsive and modern design, and **Framer Motion** for smooth page transitions and micro-interactions. The contact form is handled by **EmailJS** for serverless email functionality.
+
+### Key Skills & Technologies:
+
+-   **Frontend:** React, Vite, Tailwind CSS, JavaScript.
+-   **Animations:** Framer Motion, 3D Scroll-Based Animations (react-three/fiber).
+-   **Functionality:** Custom Modal Windows, API Redirection, Dynamic Content Rendering.
+-   **Form Handling:** React Hook Form, EmailJS.
+-   **Deployment & Routing:** Nginx, Server Configuration for SPA routes.
+
+This project demonstrates a comprehensive skill set in frontend development, including the integration of complex animations and interactive user experiences, alongside robust form and deployment solutions.
+        `,
+        projectImages: [
+            "/images/projects/mntrvrecords/featuredMusic.webp",
+            "/images/projects/mntrvrecords/aboutMNTRV.webp",
+            "/images/projects/mntrvrecords/catalogueMNTRV.webp",
+            "/images/projects/mntrvrecords/modalBuyFormat.webp",
+        ],
+    },
+    {
+        id: "literalura-catalogue",
+        title: "Backend Book Catalogue",
+        image: "https://placehold.co/400x300/e5e7eb/4b5563?text=JAVA+SPRING+BOOT+PSQL",
+        description:
+            "A console-based book catalogue built with Java, Spring Boot, and PostgreSQL, showcasing backend development and API integration.",
+        githubLink: "https://github.com/William-Fernandez/Literatura",
+        longDescription: `
+LiterAlura is an interactive backend application developed in **Java** using the **Spring Boot** framework. It functions as a book catalogue that interacts with the Gutendex API, stores data persistently in a **PostgreSQL** database, and allows users to query this data via a console interface.
+
+This project focuses on core backend development skills and demonstrates the ability to build robust, data-driven applications.
+
+Key features include:
+
+-   **API Integration:** Connects to the Gutendex API to search for books by keyword, a fundamental skill in modern software development.
+-   **Data Persistence:** Uses **Spring Data JPA** and **Hibernate** to map objects to a **PostgreSQL** database. This ensures that book and author information is stored and can be queried efficiently without repeated API calls.
+-   **Database Management:** Demonstrates proficiency in database schema management and configuration, including the use of environment variables for secure credential handling.
+-   **Console-Based UI:** The user interacts with the application through a command-line interface, showcasing strong programming fundamentals and a clear separation of concerns from the frontend.
+
+### Key Skills & Technologies:
+
+-   **Backend:** Java 21.0.7, Spring Boot.
+-   **Database:** PostgreSQL, Spring Data JPA, Hibernate.
+-   **Build Tool:** Maven.
+-   **API:** REST API Consumption.
+-   **Security:** Environment Variables for sensitive data.
+
+This project is a strong testament to my abilities in backend development, showcasing my understanding of database operations, API handling, and secure, maintainable code architecture.
+        `,
+        projectImages: [],
     },
     {
         id: "currency-converter-app",

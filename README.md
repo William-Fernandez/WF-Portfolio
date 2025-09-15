@@ -66,5 +66,5 @@ Reach out via the form on my site or find me on LinkedIn [https://www.linkedin.c
 ---
 
 **William Fernandez**
-*Junior Full-Stack Developer*
+*Junior Web Developer*
 *Based in London, UK*
