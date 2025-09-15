@@ -2,6 +2,7 @@ import LiveWebsiteScreenshot from "../assets/images/projects/zarekwebsite.png";
 import CurrencyConverter from "../assets/images/projects/CurrencyConverter.webp";
 import SecretSanta from "../assets/images/projects/SecretSanta.webp";
 import MNTRVRecords from "../assets/images/projects/MNTRVRecords.webp";
+import WFernandez from "../assets/images/projects/homeWFernandez.webp";
 
 const projectsData = [
     {
@@ -104,6 +105,45 @@ Key features include:
 This project is a strong testament to my abilities in backend development, showcasing my understanding of database operations, API handling, and secure, maintainable code architecture.
         `,
         projectImages: [],
+    },
+    {
+        id: "william-portfolio-site",
+        title: "Personal Web Developer Portfolio",
+        image: WFernandez,
+        description:
+            "A personal portfolio website showcasing my skills in modern front-end development, from tooling to deployment.",
+        liveLink: "https://wfernandez.dev",
+        githubLink: "https://github.com/William-Fernandez/WF-Portfolio",
+        longDescription: `
+This website serves as my personal portfolio, a comprehensive showcase of my skills as a self-taught web developer. It's built from the ground up to reflect modern development best practices and a strong focus on user experience.
+
+The core of the project is a **React + Vite** application, which provides a fast and efficient development workflow. I've used **Tailwind CSS** for all styling, following a utility-first approach that ensures a responsive design and a clean stylesheet.
+
+The site is packed with features that demonstrate a wide range of front-end skills:
+
+* **Advanced Animations:** **Framer Motion** and **Lenis** are used to create smooth and premium-looking animations and scrolling, enhancing the user experience.
+* **Robust Form Handling:** The contact form is managed with **React Hook Form** for reliable validation and **EmailJS** for serverless submissions.
+* **Performance Optimisation:** Techniques like lazy loading ensure that content is only loaded when it's in view, significantly improving the site's performance.
+* **Dynamic Content:** The project demonstrates the ability to dynamically render content using **React Markdown**, a key skill for building scalable and maintainable websites.
+* **Secure API Integration:** The contact form is integrated with **Google reCAPTCHA** to protect against spam, highlighting my awareness of web security.
+
+### Key Skills & Technologies:
+
+-   **Framework:** React
+-   **Build Tool:** Vite
+-   **Styling:** Tailwind CSS
+-   **Animations:** Framer Motion, Lenis
+-   **Form Management:** React Hook Form
+-   **API Integration:** EmailJS, Google reCAPTCHA
+-   **Deployment:** VPS (Nginx)
+
+This project is a clear testament to my ability to build high-quality, professional, and well-optimised websites from concept to deployment.
+        `,
+        projectImages: [
+            "/images/projects/wfportfolio/projectsWFernandez.webp",
+            "/images/projects/wfportfolio/aboutWFernandez.webp",
+            "/images/projects/wfportfolio/contactWFernandez.webp",
+        ],
     },
     {
         id: "currency-converter-app",
