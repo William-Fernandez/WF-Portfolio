@@ -30,10 +30,6 @@
     --color-tx-neutral4: #d4d8e8;
 }
 
-@import "flowbite/src/themes/default";
-@plugin "flowbite/plugin";
-@source "../node_modules/flowbite";
-
 /* src/components/Home/Info/Info.module.css */
 .blinkingCursor {
     position: relative;
